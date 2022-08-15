@@ -135,6 +135,13 @@ color:white;
 .bread_wrap ul li.bread_active1 {
 color:#F5B233;
 }
+.bread_wrap ul li.bread_link_1 {
+color:white;
+cursor:pointer;
+}
+.bread_wrap ul li.bread_link_1:hover {
+color:#F5B233;
+}
 .fpr_cta_form2 {
 display:flex;
 flex-flow:column;
@@ -1595,7 +1602,7 @@ display:flex;
 flex-flow:row nowrap;
 width:auto;
 height:30px;
-background-color:#f6e0b7;
+background-color:#accf4b;
 left:0;
 bottom:0;
 border-top-right-radius:6px;
@@ -2383,7 +2390,7 @@ margin: 0 0 7px 0;
 }
 .desc a {
 text-decoration: none;
-background-color: #f6e0b7;
+background-color: #efefef;
 padding: 15px 25px;
 color:white;
 border-radius: 15px;
