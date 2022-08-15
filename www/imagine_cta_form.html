@@ -1,0 +1,60 @@
+<style>
+.fpr_cta_form2 {
+  display:flex;
+  flex-flow:row;
+  align-items:flex-start;
+  justify-content:space-around;
+  width:75%;
+  height:auto;
+  margin:0 auto;
+}
+</style>
+
+<link rel="stylesheet" href="css/simple.css" type="text/css" media="all">
+
+<!-- CTA FORM V1 -->
+<div class="cta_form_wrapper">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+</script>
+<form class="fpr_cta_form2" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<!-------------------------------------------------------------------------->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="fprdevops@gmail.com">     -->
+<!-------------------------------------------------------------------------->
+
+<div class="fpr_form_fields">
+<input type=hidden name='captcha_settings' value='{"keyname":"fpr_website","fallback":"true","orgId":"00D0b000000Cxdj","ts":""}'>
+<input type=hidden name="oid" value="00D0b000000Cxdj">
+<input type=hidden name="retURL" value="https://foundationforpuertorico.org/thank-you/">
+<input type="hidden" name="Campaign_ID" value="7015a000000zdxT" />
+<input type="hidden" name="lead_source" value="FPR Website: foundationforpuertorico.org" />
+<input type="hidden" name="action1" value="Area of Interest: Visitor Economy" />
+<input type="hidden" name="donor" value="Not yet Donor" />
+
+<div class="form_left">
+    <input placeholder="First Name"  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    <input placeholder="Last Name"  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    <input placeholder="Email"  id="email" maxlength="80" name="email" size="20" type="text" />
+    <input placeholder="Phone (Optional)"  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+</div>
+<div class="form_right">
+    <textarea placeholder="Message" name="description"></textarea><br>
+    <!-- <input type="submit" name="submit"> -->
+    <span>Áreas de interés:</span>
+    <select  id="00N5a00000Cs7Vk" multiple="multiple" name="00N5a00000Cs7Vk" title="Interest">
+    <option value="Business">Business</option>
+    <option value="Resiliency">Resiliency</option>
+    <option value="Revitalization">Revitalization</option>
+    </select>
+</div>
+</div>
+<div class="submit_section">
+    <div class="g-recaptcha" data-sitekey="6LcL0k8gAAAAANf2TO-ZjN8UKA3QgnyGID3aErLX"></div>
+    <div class="submit_wrap"><div class="form_btn cta_form_submit">Submit</div></div>
+</div>
+</form>
+</div>
