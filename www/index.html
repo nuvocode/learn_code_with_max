@@ -1,0 +1,62 @@
+<!-- A basic HTML template for building websites, web elements & basic website sections -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Wepa!</title>
+    <meta name="description" content="Max's barebones HTML Template">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height:100%;
+            width:100%;
+            padding:0;
+            margin:0;
+            background-color:rgb(255, 255, 255);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .header {
+            display:flex;
+            width:400px;
+            height:200px;
+            align-items:center;
+            justify-content:center;
+            border-radius:20px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            cursor:pointer;
+        }
+        .header:hover {
+            background:yellow;
+        }
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            margin:40px;
+        }
+        #main {
+            background-color:yellow;
+        }
+        .fpr_img {
+            display:block;
+            width:400px;
+            height:auto;
+            margin-left:20px;
+            border-radius:20px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+    </style>
+</head>
+<body>
+   <div class="header" id="main">
+    <h1>Wepa</h1>
+    <a href="https://max-knox.web.app/resources.html" target=""></a>
+   </div>
+
+   <img class="fpr_img" src="https://foundationforpuertorico.org/wp-content/uploads/2021/02/foundation-for-puerto-rico-mission-vision.jpg" />
+</body>
+</html>
