@@ -13,6 +13,21 @@ src: url('./../wp-content/fpr_fonts/GothamBook.otf');
 font-family: ToothNail;
 src: url('./../wp-content/fpr_fonts/ToothNail.ttf');
 }
+.fpr_icon_bg {
+background-image: url(https://firebasestorage.googleapis.com/v0/b/foundationpr-app.appspot.com/o/branding%2F2022%2Ffpr_bg_icon-01.svg?alt=media&token=5094ece7-c3cc-498a-ada8-1ae4a0a68832);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+}
+.cta_dual_btn_row div {
+    max-width:700px !important;
+}
+.cta_btn div div a span {
+    font-family: GothamBlack;
+}
+.cta_btn div div a {
+    min-width:150px;
+}
 .fpr_cta_box {
 transition: all .2s;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 8px, rgba(255, 255, 255, 0.214) 0px 0px 0px 4px, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
