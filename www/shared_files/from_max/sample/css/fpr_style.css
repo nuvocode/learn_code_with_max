@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CUSTOM FONTS */
+@font-face {
+  font-family: GothamBlack;
+  src: url('../fpr_fonts/GothamBlack.otf');
+}
+@font-face {
+  font-family: GothamBook;
+  src: url('../fpr_fonts/GothamBook.otf');
+}
+@font-face {
+  font-family: ToothNail;
+  src: url('../fpr_fonts/ToothNail.ttf');
+}
+.fpr_font1 {
+font-family: ToothNail;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
+.fpr_font2 {
+font-family:  GothamBlack;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
+.fpr_font3 {
+font-family: GothamBook;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
