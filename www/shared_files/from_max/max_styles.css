@@ -5,3 +5,9 @@
     background-size: cover;
     image-rendering: crisp-edges;
 }
+.border {
+    border: 4px solid #dddddd;
+}
+.font_calc {
+    font-size: calc(2vw + 2vh);
+}
