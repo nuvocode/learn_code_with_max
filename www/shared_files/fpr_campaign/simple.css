@@ -2503,6 +2503,15 @@ font-family: GothamBook;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
+.translatepress-es .fpr_font1 {
+font-family: ToothNail;
+}
+.translatepress-es .fpr_font2 {
+font-family: GothamBlack;
+}
+.translatepress-es .fpr_font3 {
+font-family: GothamBook;
+}
 .fpr_font1a {
 font-family: ToothNail !important;
 }
