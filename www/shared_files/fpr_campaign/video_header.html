@@ -172,3 +172,30 @@ function hide_media_show() {
     jQuery(camp_media_show).hide("slide", { direction: "up" }, 400);
 }
 </script>
+
+
+<!-- Hide Footer Script  -->
+<script>
+    console.log('Loaded campaign update');
+    var fpr_footer = document.getElementsByClassName("fpr_footer");
+    timeoutID = window.setTimeout(hideFooter, 2000);
+    function hideFooter() {
+        jQuery(fpr_footer).hide();
+        console.log('Executed hide footer');
+    }
+</script>
+
+<!-- Font Reset -->
+<script>
+    console.log('Loaded Font Reset');
+    var font1 = document.getElementsByClassName("fpr_font1");
+    var font2 = document.getElementsByClassName("fpr_font2");
+    var font3 = document.getElementsByClassName("fpr_font3");
+    timeoutID = window.setTimeout(resetFont, 1800);
+    function resetFont() {
+        console.log('Executed font reset');
+        jQuery(font1).addClass("fpr_font1a");
+        jQuery(font2).addClass("fpr_font2a");
+        jQuery(font3).addClass("fpr_font3a");
+    }
+</script>

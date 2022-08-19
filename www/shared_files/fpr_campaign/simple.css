@@ -21,21 +21,6 @@ cursor:pointer;
 }
 .section_collab {
 }
-.fpr_font1 {
-font-family: ToothNail !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-.fpr_font2 {
-font-family: GothamBlack !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-.fpr_font3 {
-font-family: GothamBook !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
 .text_center {
 text-align:center;
 margin:0 auto;
@@ -2502,6 +2487,30 @@ font-size: calc(3vw + 3vh) !important;
 }
 .f_size_4vw {
 font-size: calc(4vw + 4vh) !important;
+}
+.fpr_font1 {
+font-family: ToothNail;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font2 {
+font-family: GothamBlack;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font3 {
+font-family: GothamBook;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font1a {
+font-family: ToothNail !important;
+}
+.fpr_font2a {
+font-family: GothamBlack !important;
+}
+.fpr_font3a {
+font-family: GothamBook !important;
 }
 @keyframes iconjln{
 0%, 100% {
