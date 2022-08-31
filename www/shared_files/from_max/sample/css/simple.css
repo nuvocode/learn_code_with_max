@@ -3,30 +3,15 @@ display:none;
 }
 @font-face {
 font-family: GothamBlack;
-src: url('./../wp-content/fpr_fonts/GothamBlack.otf');
+src: url('./../wp-content/fpr_fonts/GothamBlack.ttf');
 }
 @font-face {
 font-family: GothamBook;
-src: url('./../wp-content/fpr_fonts/GothamBook.otf');
+src: url('./../wp-content/fpr_fonts/GothamBook.ttf');
 }
 @font-face {
 font-family: ToothNail;
 src: url('./../wp-content/fpr_fonts/ToothNail.ttf');
-}
-.fpr_icon_bg {
-background-image: url(https://firebasestorage.googleapis.com/v0/b/foundationpr-app.appspot.com/o/branding%2F2022%2Ffpr_bg_icon-01.svg?alt=media&token=5094ece7-c3cc-498a-ada8-1ae4a0a68832);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: contain;
-}
-.cta_dual_btn_row div {
-    max-width:700px !important;
-}
-.cta_btn div div a span {
-    font-family: GothamBlack;
-}
-.cta_btn div div a {
-    min-width:150px;
 }
 .fpr_cta_box {
 transition: all .2s;
@@ -34,22 +19,117 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 8px, rgba(255, 255, 255, 0.214) 0px 0px 
 overflow:hidden;
 cursor:pointer;
 }
+.fpr_infog_wrap {
+    display:flex;
+    flex-flow:column;
+    align-content:stretch;
+    justify-content:space-around;
+    width:100%;
+    height:100%;
+}
+.infog_card {
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    background-color:rgb(209, 209, 209);
+    border-radius:20px;
+    flex-grow:1;
+    margin-bottom:20px;
+}
+.cta_description2 {
+    font-size: calc(1vw + 1vh);
+    color:white;
+    margin:20px 0px 20px 40px;
+}
+.fpr_half_header_ctop button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 40px;
+    background-color: #d44e34;
+    border-radius: 40px;
+    font-family: GothamBlack;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+.fpr_wrapper_10 {
+    display:flex;
+    flex-flow:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:30%;
+}
+.fpr_wrapper_10_col {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:30%;
+}
+.fpr_wrapper_80 {
+    display:flex;
+    flex-flow:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:70%;
+    margin-bottom:10vh;
+}
+.fpr_half_header_ctop {
+    display:flex;
+    width:50%;
+    height:100%;
+    flex-flow:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+.fpr_half_header {
+    display:flex;
+    width:50%;
+    height:100%;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+}
+.fpr_snap_container1 {
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(97vh);
+    scroll-snap-points-x: repeat(100%);
+}
+.fpr_snap_element1 {
+    scroll-snap-stop: normal;
+    width:100%;
+    height:97vh;
+}
+.cover_headline {
+    display:flex;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+}
+.cover_headline span {
+    line-height:1.3;
+}
+.max-width1250 {
+    max-width:1250px;
+    margin:0 auto;
+    align-self:center;
+}
+.max-width1100 {
+    max-width:1100px;
+    margin:0 auto;
+    align-self:center;
+}
 .section_collab {
-}
-.fpr_font1 {
-font-family: ToothNail !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-.fpr_font2 {
-font-family: GothamBlack !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-.fpr_font3 {
-font-family: GothamBook !important;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
 }
 .text_center {
 text-align:center;
@@ -74,7 +154,7 @@ right:0;
 margin-bottom:64px;
 }
 .gotham_descript {
-font-family: GothamBook !important;
+font-family: GothamBook, 'Montserrat', sans-serif;
 font-size:1rem !important;
 }
 .gotham_title {
@@ -121,13 +201,15 @@ border:none !important;
 overflow: hidden;
 }
 .fpr_camp_breadcrumbs {
-display:block;
+display:flex;
 width:100%;
 height:45px;
 background-color:#d44e34;
 margin:0;
 padding:0;
 overflow:hidden;
+align-items:center;
+justify-content:center;
 }
 .bread_wrap {
 display:flex;
@@ -255,7 +337,7 @@ background-size: cover;
 image-rendering: crisp-edges;
 }
 .fpr_hero_i_3 {
-background-image: url(https://firebasestorage.googleapis.com/v0/b/foundationpr-app.appspot.com/o/imagine%2Faugust_2022%2Ffpr_hero_i_2.jpg?alt=media&token=161cefe1-3caf-4cd4-9c5e-a516e5460e73);
+background-image: url(https://firebasestorage.googleapis.com/v0/b/foundationpr-app.appspot.com/o/imagine%2Faugust_2022%2Ffpr_hero_i_3.jpg?alt=media&token=25aa4c10-302b-4a6a-86e9-720c16e72698);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
@@ -687,7 +769,7 @@ justify-content:center;
 display:flex;
 position:relative;
 width:100%;
-height:calc(98vh - 122px);
+height:calc(94vh - 122px);
 background-color:grey;
 border-bottom: 5px solid #ffffff;
 }
@@ -826,6 +908,22 @@ flex-flow:column;
 align-items:center;
 justify-content:flex-end;
 }
+.cta_full_col {
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+}
+.cta_full {
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-flow:row;
+    align-items:center;
+    justify-content:center;
+}
 .cta_b1 {
 display:flex;
 width:100%;
@@ -933,6 +1031,28 @@ font-weight: 700;
 }
 .elementor-329 .elementor-element.elementor-element-01a6f62 {
 z-index:999999 !important;   
+}
+.sector_p_image2 {
+flex: 1;
+height: auto;
+min-height:160px;
+border-radius:20px;
+margin-right:auto;
+max-width:200px;
+background-color: #ffffff;
+align-items:center;
+justify-content:center;
+padding:40px 20px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 8px, rgba(255, 255, 255, 0.214) 0px 0px 0px 4px, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.sector_p_image2 span {
+font-family: GothamBlack;
+display:flex;
+flex:1;
+font-size:1.4rem;
+font-weight:700;
+color: rgba(0, 0, 0, 0.876);
+text-shadow: 2px 2px 3px rgba(255,255,255,0.1), 4px 4px 6px rgb(255, 255, 255);
 }
 .sector_p_image {
 flex: 1;
@@ -1548,6 +1668,7 @@ transition: all 600ms ease-in-out;
 }
 .initiative_header {
 display:flex;
+position:relative;
 height:100%;
 width:100%;
 align-items:center;
@@ -1574,6 +1695,17 @@ height:100%;
 flex-flow:row nowrap;
 align-items:flex-end;
 justify-content:center;
+margin:0 auto -40px auto;
+z-index:99998;
+}
+.cover_wrapper2 {
+position:relative;
+display:flex;
+flex: 0 0 96%; /* flex-grow, flex-shrink, flex-basis */
+height:100%;
+flex-flow:row nowrap;
+align-items:flex-end;
+justify-content:flex-start;
 margin:0 auto -40px auto;
 z-index:99998;
 }
@@ -1618,6 +1750,15 @@ align-items:center;
 justify-content:flex-start;
 overflow:hidden;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 8px, rgba(255, 255, 255, 0.214) 0px 0px 0px 4px, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.p_cover_links_transp {
+    display:flex;
+    width: calc(100% - 280px);
+    height:80px;
+    align-items:center;
+    justify-content:flex-start;
+    overflow:hidden;
+    background:transparent;
 }
 .card_tag {
 position:absolute;
@@ -2430,7 +2571,7 @@ background-color: #F5B233;
 animation : iconjln 1s;
 }
 .fpr_white {
-color:#ffffff;
+color:#ffffff !important;
 }
 .fpr_red {
 color:#f54d3e;
@@ -2517,6 +2658,39 @@ font-size: calc(3vw + 3vh) !important;
 }
 .f_size_4vw {
 font-size: calc(4vw + 4vh) !important;
+}
+.fpr_font1 {
+font-family: ToothNail;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font2 {
+font-family: GothamBlack;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font3 {
+font-family: GothamBook, 'Montserrat', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.fpr_font1a {
+font-family: ToothNail !important;
+}
+.fpr_font2a {
+font-family: GothamBlack !important;
+}
+.fpr_font3a {
+font-family: GothamBook !important;
+}
+.translatepress-es .fpr_font1 {
+    font-family: ToothNail;
+}
+.translatepress-es .fpr_font2 {
+    font-family: GothamBlack;
+}
+.translatepress-es .fpr_font3 {
+    font-family: GothamBook, 'Montserrat', sans-serif;
 }
 @keyframes iconjln{
 0%, 100% {
